@@ -83,28 +83,47 @@ body{
         width: 70%;
         font-size: 0.8rem;
     }
+    .full-page{
+        padding: 180px 100px 0 100px;
+    }
 }
-@media(max-width: 992px){
+@media(max-width: 1063px){
+    .cel{
+        font-size: 0.9rem;
+    }
+}
+@media(max-width: 991.5px){
     .fb-pic{
         margin: auto;
     }
     .fb-text{
         text-align: center;
+        margin-left: 0;
     }
     .fb-form{
         margin-top: 10px;
         margin-left: 0;
     }
     .full-page{
-        padding: 50px;
+        padding: 30px 30px;
     }
     .createbtn{
         font-size: 1rem;
     }
+    ::placeholder{
+        font-size: 0.9rem;
+    }
+    .cel{
+        font-size: 1rem;
+    }
+    
 }
 @media(max-width: 678px){
     .fb-text{
         font-size: 1.4rem;
+    }
+    .cel{
+
     }
 }
 @media(max-width: 576px){
@@ -113,5 +132,15 @@ body{
     }
     .createbtn{
         font-size: 1rem;
+    }
+}
+@media(max-width: 406px){
+    .cel{
+        font-size: 0.9rem;
+    }
+}
+@media(max-width: 371px){
+    .cel{
+        font-size: 0.8rem;
     }
 }
